@@ -1,0 +1,15 @@
+{
+  "changes": [
+    {
+      "at": 1791880585.4210172,
+      "source": "分支命名约定与实际不符：默认模板 feature/{ticket}-{slug}，但本仓库真实分支全为 feat-MJDA-xxxx",
+      "changes": [
+        {
+          "path": "branch.pattern",
+          "value": "feat-{ticket}",
+          "reason": "本仓库 origin 上 40+ 个特性分支全为 feat-MJDA-1596 / 2193 / 2298 ... 3190 / 3211 / 3214 形式，无 slug、无 feature/ 前缀；用户也明确要求分支名 feat-MJDA-5014。默认模板 feature/{ticket}-{slug} 与实际不符"
+        }
+      ]
+    }
+  ]
+}
